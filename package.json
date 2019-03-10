@@ -1,0 +1,14 @@
+{
+  "name": "@josefaidt/root",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Josef Aidt",
+    "email": "josef.aidt@gmail.com",
+    "url": "https://josefaidt.me/"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
