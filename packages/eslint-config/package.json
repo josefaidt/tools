@@ -1,7 +1,7 @@
 {
   "name": "@josefaidt/eslint-config",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "author": {
     "name": "Josef Aidt",
@@ -41,6 +41,11 @@
     "eslint": "^5.15.1"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "standard",
+    "prettier",
+    "react",
+    "react-hooks",
+    "jsx"
   ]
 }
