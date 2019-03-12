@@ -16,7 +16,7 @@ Includes:
 
 ## Installation
 
-`npm install @josefaidt/eslint-config --save-dev`
+`npm install --save-dev @josefaidt/eslint-config`
 
 `yarn add -D @josefaidt/eslint-config`
 
