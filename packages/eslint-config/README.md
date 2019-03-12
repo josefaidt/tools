@@ -1,6 +1,36 @@
 # @josefaidt/eslint-config
 
-My shareable ESLint config
+![https://img.shields.io/npm/v/@josefaidt/eslint-config.svg](https://img.shields.io/npm/v/@josefaidt/eslint-config.svg)
+![https://img.shields.io/npm/l/@josefaidt/eslint-config.svg](https://img.shields.io/npm/l/@josefaidt/eslint-config.svg)
+
+Includes:
+
+- prettier
+- eslint-config-prettier
+- eslint-plugin-prettier
+- eslint-config-standard
+- eslint-plugin-standard
+- eslint-plugin-react
+- eslint-plugin-react-hooks
+- eslint-plugin-jsx-a11y
+
+## Installation
+
+`npm install @josefaidt/eslint-config --save-dev`
+
+`yarn add -D @josefaidt/eslint-config`
+
+## Usage
+
+In your project's `.eslintrc.js`:
+
+```js
+module.exports = {
+  extends: '@josefaidt/eslint-config'
+}
+```
+
+## Provided Configuration
 
 ```js
 module.exports = {
@@ -13,7 +43,7 @@ module.exports = {
     'prettier/react',
     'prettier/standard',
   ],
-  plugins: ['prettier', 'react', 'standard', 'jsx-a11y'],
+  plugins: ['prettier', 'react', 'standard', 'jsx-a11y', 'react-hooks'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 8,
