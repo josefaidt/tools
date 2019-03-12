@@ -144,7 +144,7 @@ module.exports = {
     'react/no-direct-mutation-state': 2,
     'react/no-typos': 2,
     'react/prefer-stateless-function': 0,
-    'react/react-in-jsx-scope': 0, // turn off when working with Apollo
+    'react/react-in-jsx-scope': 2, // turn off when working with Apollo
     'react/sort-comp': 2,
     'react/prop-types': 0,
 
