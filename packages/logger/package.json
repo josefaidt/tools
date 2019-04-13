@@ -1,0 +1,26 @@
+{
+  "name": "@josefaidt/lg",
+  "private": false,
+  "version": "0.1.1",
+  "description": "Dead simple time logger for the console",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": "Josef Aidt <josef.aidt@gmail.com> (https://josefaidt.me/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josefaidt/tools/tree/master/packages/logger"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "keywords": [
+    "logger",
+    "lg"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
