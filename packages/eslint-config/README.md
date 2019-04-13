@@ -16,9 +16,9 @@ Includes:
 
 ## Installation
 
-`npm install --save-dev @josefaidt/eslint-config`
+`npm install --save-dev eslint @josefaidt/eslint-config`
 
-`yarn add -D @josefaidt/eslint-config`
+`yarn add -D eslint @josefaidt/eslint-config`
 
 ## Usage
 
