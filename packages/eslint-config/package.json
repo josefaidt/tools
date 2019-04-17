@@ -1,12 +1,12 @@
 {
   "name": "@josefaidt/eslint-config",
   "private": false,
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ESLint + Prettier + React w/ hooks + ES6+",
   "main": "index.js",
   "files": [
     "index.js",
-    "recommended.js"
+    "eslint.config.js"
   ],
   "author": {
     "name": "Josef Aidt",
