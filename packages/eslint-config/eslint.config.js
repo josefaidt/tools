@@ -10,7 +10,7 @@ module.exports = {
   plugins: ['prettier', 'react', 'standard', 'jsx-a11y', 'react-hooks'],
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 10,
     ecmaFeatures: {
       impliedStrict: true,
       classes: true,
