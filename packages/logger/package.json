@@ -1,12 +1,9 @@
 {
   "name": "@josefaidt/lg",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Dead simple time logger for the console",
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "author": "Josef Aidt <josef.aidt@gmail.com> (https://josefaidt.me/)",
   "repository": {
     "type": "git",
