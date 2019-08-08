@@ -4,7 +4,7 @@
   "version": "0.1.2",
   "description": "Dead simple time logger for the console",
   "main": "index.js",
-  "author": "Josef Aidt <josef.aidt@gmail.com> (https://josefaidt.me/)",
+  "author": "Josef Aidt <josef.aidt@gmail.com> (https://josefaidt.dev/)",
   "repository": {
     "type": "git",
     "url": "https://github.com/josefaidt/tools/tree/master/packages/logger"
