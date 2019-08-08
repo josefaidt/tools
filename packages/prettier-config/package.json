@@ -1,0 +1,17 @@
+{
+  "name": "@josefaidt/prettier-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Josef Aidt",
+    "email": "josef.aidt@gmail.com",
+    "url": "https://josefaidt.dev/"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
