@@ -131,6 +131,8 @@ module.exports = {
         useTabs: false,
         printWidth: 100,
         bracketSpacing: true,
+        quoteProps: 'as-needed',
+        jsxSingleQuote: false,
         jsxBracketSameLine: false,
         arrowParens: 'avoid',
       },
