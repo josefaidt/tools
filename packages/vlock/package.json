@@ -1,0 +1,10 @@
+{
+  "name": "@josefaidt/vlock",
+  "version": "0.1.0",
+  "author": "Josef Aidt <josef.aidt@gmail.com>",
+  "description": "Simple version locker for monorepos",
+  "bin": {
+    "vlock": "index.js"
+  },
+  "license": "MIT"
+}
