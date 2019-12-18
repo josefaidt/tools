@@ -7,10 +7,17 @@ module.exports = {
     'prettier/react',
     'prettier/standard',
   ],
-  plugins: ['prettier', 'react', 'standard', 'jsx-a11y', 'react-hooks'],
+  plugins: ['prettier', 'react', 'standard', 'jsx-a11y', 'react-hooks', 'svelte3'],
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 10,
+    parserOptions: {
+      ecmaVersion: 2019,
+      sourceType: 'module'
+    },
+    env: {
+      es6: true,
+      browser: true
+    },
     ecmaFeatures: {
       impliedStrict: true,
       classes: true,
@@ -27,6 +34,12 @@ module.exports = {
       version: 'latest',
     },
   },
+  overrides: [
+    {
+      files: ['**/*.svelte'],
+      processor: 'svelte3/svelte3'
+    }
+  ],
   rules: {
     strict: 0,
     'no-console': 0,
