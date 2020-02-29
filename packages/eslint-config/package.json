@@ -2,7 +2,7 @@
   "name": "@josefaidt/eslint-config",
   "private": false,
   "version": "0.1.11",
-  "description": "ESLint + Prettier + React w/ hooks + ES6+",
+  "description": "ESLint + Prettier + React w/ hooks + ES6(+) + a11y",
   "main": "index.js",
   "files": [
     "index.js",
@@ -27,25 +27,25 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-config-prettier": "^6.7.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-svelte3": "^2.7.3",
     "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   },
   "peerDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   },
   "keywords": [
     "eslint",
