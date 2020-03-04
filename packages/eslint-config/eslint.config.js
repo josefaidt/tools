@@ -106,7 +106,7 @@ module.exports = {
     'react/jsx-key': 2,
     'react/jsx-no-bind': 0, // prevents using arrow functions on props
     'react/jsx-no-target-blank': 2,
-    'react/jsx-no-useless-fragment': 2,
+    'react/jsx-no-useless-fragment': 1,
     'react/jsx-sort-props': [
       0,
       {
