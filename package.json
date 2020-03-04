@@ -6,7 +6,7 @@
   "author": {
     "name": "Josef Aidt",
     "email": "josef.aidt@gmail.com",
-    "url": "https://josefaidt.me/"
+    "url": "https://josefaidt.dev/"
   },
   "workspaces": [
     "packages/*"
