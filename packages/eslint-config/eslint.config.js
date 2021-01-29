@@ -7,11 +7,11 @@ module.exports = {
     'prettier/react',
     'prettier/standard',
   ],
-  plugins: ['prettier', 'react', 'standard', 'jsx-a11y', 'react-hooks', 'svelte3'],
+  plugins: ['prettier', 'react', 'standard', 'jsx-a11y', 'react-hooks'],
   parser: 'babel-eslint',
   parserOptions: {
     parserOptions: {
-      ecmaVersion: 2019,
+      ecmaVersion: 2020,
       sourceType: 'module'
     },
     env: {
@@ -34,12 +34,12 @@ module.exports = {
       version: 'latest',
     },
   },
-  overrides: [
-    {
-      files: ['**/*.svelte'],
-      processor: 'svelte3/svelte3'
-    }
-  ],
+  // overrides: [
+  //   {
+  //     files: ['**/*.svelte'],
+  //     processor: 'svelte3/svelte3'
+  //   }
+  // ],
   rules: {
     strict: 0,
     'no-console': 0,
@@ -122,9 +122,11 @@ module.exports = {
     'react/no-direct-mutation-state': 2,
     'react/no-typos': 2,
     'react/prefer-stateless-function': 0,
-    'react/react-in-jsx-scope': 2, // turn off when working with Apollo
+    // 'react/react-in-jsx-scope': 2, // turn off when working with Apollo
     'react/sort-comp': 2,
     'react/prop-types': 0,
+    'react/boolean-prop-naming': ['error', { 'rule': '^(is|has)[A-Z]([A-Za-z0-9]?)+' }],
+    'react/no-multi-comp': 2,
 
     // react hooks
     'react-hooks/rules-of-hooks': 2,
